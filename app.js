@@ -37,26 +37,26 @@ buttons[3].addEventListener('click', () => {
   }
 });
 
-// buttons[4].addEventListener('click', () => {
-//     document.querySelector('#video-container').style.zIndex = '9999';
-//     document.querySelector('#video-container').style.display = 'block';
-//     // document.body.style.overflow = 'hidden';
+buttons[4].addEventListener('click', () => {
+    document.querySelector('#video-container').style.zIndex = '9999';
+    document.querySelector('#video-container').style.display = 'block';
+    // document.body.style.overflow = 'hidden';
   
-// });
-// video = document.querySelector("#my-video")
-// closeVideoBtn = document.querySelector('#close-video');
-// closeVideoBtn.addEventListener('click', function() {
-//        document.querySelector('#video-container').style.zIndex = '-1';
-//     document.querySelector('#video-container').style.display = 'none';
-//     video.currentTime = 0; 
-// })
+});
+video = document.querySelector("#my-video")
+closeVideoBtn = document.querySelector('#close-video');
+closeVideoBtn.addEventListener('click', function() {
+       document.querySelector('#video-container').style.zIndex = '-1';
+    document.querySelector('#video-container').style.display = 'none';
+    video.currentTime = 0; 
+})
 
 
-// buttons[4].addEventListener('click', () => {
+buttons[4].addEventListener('click', () => {
 
-//   videoBtn.addEventListener('click', () => {
-//   });
-// });
+  videoBtn.addEventListener('click', () => {
+  });
+});
 // Uncomment if you want background music functionality
 const musicToggle = document.querySelectorAll(".music-toggle");
 const bgMusic = document.getElementById("bg-music")
