@@ -37,7 +37,7 @@ buttons[3].addEventListener('click', () => {
   }
 });
 
-video-btn.addEventListener('click', () => {
+button[5].addEventListener('click', () => {
     document.querySelector('#video-container').style.zIndex = '9999';
     document.querySelector('#video-container').style.display = 'block';
     // document.body.style.overflow = 'hidden';
