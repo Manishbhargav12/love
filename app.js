@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.getElementById('photos-btn'),
                 document.getElementById('message-btn'),
                 document.getElementById('letter-btn'),
-                document.getElementById('video-btn')
+                // document.getElementById('video-btn')
             ];
              const messageBtn = document.getElementById('message-btn');
   const shayariContainer = document.getElementById('shayari-container');
@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (shayariContainer.classList.contains('hidden')) {
       shayariContainer.classList.remove('hidden');
       shayariContainer.classList.add('revealed');
-    //   messageBtn.textContent = '❤️ Hide Message';
+      messageBtn.textContent = '❤️ Hide Message';
     } else {
       shayariContainer.classList.remove('revealed');
       shayariContainer.classList.add('hidden');
-    //   messageBtn.textContent = '💌 My Message';
+      messageBtn.textContent = '💌 Chuppa lo isse apne dil me';
     }
   });
 
