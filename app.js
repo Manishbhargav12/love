@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.getElementById('photos-btn'),
                 document.getElementById('message-btn'),
                 document.getElementById('letter-btn'),
-                const vid = document.getElementById('video-btn')
+                document.getElementById('video-btn')
             ];
              const messageBtn = document.getElementById('message-btn');
   const shayariContainer = document.getElementById('shayari-container');
@@ -37,7 +37,7 @@ buttons[3].addEventListener('click', () => {
   }
 });
 
-vid.addEventListener('click', () => {
+video-btn.addEventListener('click', () => {
     document.querySelector('#video-container').style.zIndex = '9999';
     document.querySelector('#video-container').style.display = 'block';
     // document.body.style.overflow = 'hidden';
