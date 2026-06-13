@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.getElementById('photos-btn'),
                 document.getElementById('message-btn'),
                 document.getElementById('letter-btn'),
-                // document.getElementById('video-btn')
+                document.getElementById('video-btn')
             ];
              const messageBtn = document.getElementById('message-btn');
   const shayariContainer = document.getElementById('shayari-container');
