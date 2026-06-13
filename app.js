@@ -52,11 +52,11 @@ closeVideoBtn.addEventListener('click', function() {
 })
 
 
-buttons[4].addEventListener('click', () => {
+// buttons[4].addEventListener('click', () => {
 
-  videoBtn.addEventListener('click', () => {
-  });
-});
+//   videoBtn.addEventListener('click', () => {
+//   });
+// });
 // Uncomment if you want background music functionality
 const musicToggle = document.querySelectorAll(".music-toggle");
 const bgMusic = document.getElementById("bg-music")
